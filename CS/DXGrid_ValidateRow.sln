@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXGrid_ValidateRow", "DXGrid_ValidateRow\DXGrid_ValidateRow.csproj", "{012BA108-CB06-4E27-BE3D-FA2F736557BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{012BA108-CB06-4E27-BE3D-FA2F736557BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{012BA108-CB06-4E27-BE3D-FA2F736557BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{012BA108-CB06-4E27-BE3D-FA2F736557BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{012BA108-CB06-4E27-BE3D-FA2F736557BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
