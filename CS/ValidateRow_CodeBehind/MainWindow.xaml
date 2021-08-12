@@ -1,0 +1,22 @@
+﻿<Window x:Class="ValidateRow_CodeBehind.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+        xmlns:local="clr-namespace:ValidateRow_CodeBehind"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <dxg:GridControl x:Name="grid">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="TaskName" />
+                <dxg:GridColumn FieldName="StartDate" />
+                <dxg:GridColumn FieldName="EndDate" />
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView
+                    AutoWidth="True"
+                    ValidateRow="OnValidateRow"
+                    InvalidRowException="OnInvalidRowException"/>
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+    </Grid>
+</Window>
