@@ -12,22 +12,22 @@ namespace ValidateRow_MVVM {
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
 
-        string IDataErrorInfo.Error => StartDate > EndDate ? "Either StartDate or EndDate should be corrected." : null;
+        string IDataErrorInfo.Error => StartDate > EndDate ? "Either Start Date or End Date should be corrected." : null;
 
         string IDataErrorInfo.this[string columnName] {
             get {
                 switch(columnName) {
                     case nameof(StartDate):
                         if(StartDate > EndDate)
-                            return "StartDate must be less than EndDate";
+                            return "Start Date must be less than End Date";
                         break;
                     case nameof(EndDate):
                         if(StartDate > EndDate)
-                            return "EndDate must be greater than StartDate";
+                            return "End Date must be greater than Start Date";
                         break;
                     case nameof(TaskName):
                         if(string.IsNullOrEmpty(TaskName) || string.IsNullOrWhiteSpace(TaskName))
-                            return "Task name hasn't been entered";
+                            return "Enter a task name";
                         break;
                 }
                 return null;
@@ -61,9 +61,9 @@ namespace ValidateRow_MVVM {
         }
         static ValidationErrorInfo GetValidationErrorInfo(Task task) {
             if(task.StartDate > task.EndDate)
-                return new ValidationErrorInfo("StartDate must be less than EndDate");
+                return new ValidationErrorInfo("Start Date must be less than End Date");
             if(string.IsNullOrEmpty(task.TaskName) || string.IsNullOrWhiteSpace(task.TaskName))
-                return new ValidationErrorInfo("Task name hasn't been entered");
+                return new ValidationErrorInfo("Enter a task name");
             return null;
         }
 
