@@ -41,3 +41,4 @@ The **Task** class implements the [IDataErrorInfo](https://docs.microsoft.com/en
 
 - [How to Validate Cell Editors](https://github.com/DevExpress-Examples/validate-cell-editors)
 - [How to Implement Attributes-Based Validation](https://github.com/DevExpress-Examples/how-to-implement-attributes-based-validation-e3191)
+- [How to Initialize the New Item Row with Default Values](https://github.com/DevExpress-Examples/how-to-initialize-the-new-item-row-with-default-values-e1569)
