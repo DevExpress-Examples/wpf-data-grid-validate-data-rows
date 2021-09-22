@@ -4,21 +4,17 @@
         xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
         xmlns:local="clr-namespace:ValidateRow_MVVM"
         Title="MainWindow" Height="450" Width="800">
+
     <Window.DataContext>
-        <local:MainViewModel />
+        <local:MainViewModel/>
     </Window.DataContext>
+
     <Grid>
-        <dxg:GridControl ItemsSource="{Binding TaskList}">
-            <dxg:GridControl.Columns>
-                <dxg:GridColumn FieldName="TaskName" />
-                <dxg:GridColumn FieldName="StartDate" />
-                <dxg:GridColumn FieldName="EndDate" />
-            </dxg:GridControl.Columns>
+        <dxg:GridControl ItemsSource="{Binding TaskList}" AutoGenerateColumns="AddNew">
             <dxg:GridControl.View>
-                <dxg:TableView
-                    AutoWidth="True"
-                    ValidateRowCommand="{Binding ValidateRowCommand}"
-                    InvalidRowExceptionCommand="{Binding InvalidRowCommand}"/>
+                <dxg:TableView AutoWidth="True"
+                               ValidateRowCommand="{Binding ValidateRowCommand}"
+                               InvalidRowExceptionCommand="{Binding InvalidRowCommand}"/>
             </dxg:GridControl.View>
         </dxg:GridControl>
     </Grid>
