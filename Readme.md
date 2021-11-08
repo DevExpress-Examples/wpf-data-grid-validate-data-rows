@@ -19,12 +19,12 @@ The **Task** class implements the [IDataErrorInfo](https://docs.microsoft.com/en
 ### Code Behind Technique
 
 - [MainWindow.xaml](./CS/ValidateRow_CodeBehind/MainWindow.xaml) ([MainWindow.xaml](./VB/ValidateRow_CodeBehind/MainWindow.xaml))
-- [MainWindow.xaml.cs](./CS/ValidateRow_CodeBehind/MainWindow.xaml.cs#L56-L66) ([MainWindow.xaml.vb](./VB/ValidateRow_CodeBehind/MainWindow.xaml.vb#L67-L79))
+- [MainWindow.xaml.cs](./CS/ValidateRow_CodeBehind/MainWindow.xaml.cs#L56-L66) ([MainWindow.xaml.vb](./VB/ValidateRow_CodeBehind/MainWindow.xaml.vb#L48-L56))
 
 ### MVVM Technique
 
 - [MainWindow.xaml](./CS/ValidateRow_MVVM/MainWindow.xaml) ([MainWindow.xaml](./VB/ValidateRow_MVVM/MainWindow.xaml))
-- [MainViewModel.cs](./CS/ValidateRow_MVVM/MainViewModel.cs#L58-L73) ([MainViewModel.vb](./VB/ValidateRow_MVVM/MainViewModel.vb#L69-L86))
+- [MainViewModel.cs](./CS/ValidateRow_MVVM/MainViewModel.cs#L58-L73) ([MainViewModel.vb](./VB/ValidateRow_MVVM/MainViewModel.vb#L50-L64))
 
 <!-- default file list end -->
 
