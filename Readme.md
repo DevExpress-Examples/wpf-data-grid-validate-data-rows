@@ -8,7 +8,7 @@
 
 This example shows how to check if a user enters valid data into a row. Handle the [ValidateRow](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridViewBase.ValidateRow) and [InvalidRowException](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridViewBase.InvalidRowException) events to validate the focused row's data. You can also use the [ValidateRowCommand](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridViewBase.ValidateRowCommand) and [InvalidRowExceptionCommand](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridViewBase.InvalidRowExceptionCommand) properties to maintain a clean MVVM pattern and process the row validate operation in a ViewModel. If the data is invalid, do not allow the user to move focus to another row until the invalid values are corrected.
 
-The **Task** class implements the [IDataErrorInfo](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.idataerrorinfo) interface and allows you to get error descriptions for the entire row and individual cells (data source fields). Error icons appear in cells that contain invalid values. Hover the mouse pointer over an error icon to display a tooltip with an error description.
+The **Task** class implements the [IDataErrorInfo](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.idataerrorinfo) interface and allows you to get error descriptions for the entire row and individual cells (data source fields). Error icons appear in cells that contain invalid values. Hover the mouse pointer over an error icon to display a tooltip with an error description. 
 
 ![](https://docs.devexpress.com/WPF/images/GridViewBase_InvalidRowExceptionCommand.png?v=21.2&f=InvalidRowException)
 
