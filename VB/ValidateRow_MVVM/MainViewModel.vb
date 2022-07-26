@@ -49,7 +49,7 @@ Namespace ValidateRow_MVVM
 
         <Command>
         Public Sub ValidateRow(ByVal args As RowValidationArgs)
-            args.Result = MainViewModel.GetValidationErrorInfo(CType(args.Item, Task))
+            args.Result = GetValidationErrorInfo(CType(args.Item, Task))
         End Sub
 
         Private Shared Function GetValidationErrorInfo(ByVal task As Task) As ValidationErrorInfo

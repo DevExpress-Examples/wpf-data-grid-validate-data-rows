@@ -41,8 +41,8 @@ Namespace ValidateRow_CodeBehind
         Inherits Window
 
         Public Sub New()
-            InitializeComponent()
-            grid.ItemsSource = New List(Of Task) From {New Task() With {.TaskName = "Complete Project A", .StartDate = New DateTime(2009, 7, 17), .EndDate = New DateTime(2009, 7, 10)}, New Task() With {.TaskName = "Test Website", .StartDate = New DateTime(2009, 7, 10), .EndDate = New DateTime(2009, 7, 12)}, New Task() With {.TaskName = String.Empty, .StartDate = New DateTime(2009, 7, 4), .EndDate = New DateTime(2009, 7, 6)}}
+            Me.InitializeComponent()
+            Me.grid.ItemsSource = New List(Of Task) From {New Task() With {.TaskName = "Complete Project A", .StartDate = New DateTime(2009, 7, 17), .EndDate = New DateTime(2009, 7, 10)}, New Task() With {.TaskName = "Test Website", .StartDate = New DateTime(2009, 7, 10), .EndDate = New DateTime(2009, 7, 12)}, New Task() With {.TaskName = String.Empty, .StartDate = New DateTime(2009, 7, 4), .EndDate = New DateTime(2009, 7, 6)}}
         End Sub
 
         Private Sub OnValidateRow(ByVal sender As Object, ByVal e As GridRowValidationEventArgs)
