@@ -11,7 +11,7 @@ This example shows how to check if a user enters valid data into a row. Handle t
 
 The **Task** class implements the [IDataErrorInfo](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.idataerrorinfo) interface and allows you to get error descriptions for the entire row and individual cells (data source fields). Error icons appear in cells that contain invalid values. Hover the mouse pointer over an error icon to display a tooltip with an error description. 
 
-![](https://docs.devexpress.com/WPF/images/GridViewBase_InvalidRowExceptionCommand.png?v=21.2&f=InvalidRowException)
+![](https://docs.devexpress.com/WPF/images/GridViewBase_InvalidRowExceptionCommand.png)
 
 <!-- default file list -->
 
@@ -50,3 +50,4 @@ The **Task** class implements the [IDataErrorInfo](https://docs.microsoft.com/en
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
