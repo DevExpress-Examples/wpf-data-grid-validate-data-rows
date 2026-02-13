@@ -44,7 +44,7 @@ The **Task** class implements the [IDataErrorInfo](https://docs.microsoft.com/en
 - [How to Implement Attributes-Based Validation](https://github.com/DevExpress-Examples/how-to-implement-attributes-based-validation-e3191)
 - [How to Initialize the New Item Row with Default Values](https://github.com/DevExpress-Examples/how-to-initialize-the-new-item-row-with-default-values-e1569)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-validate-data-rows&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-validate-data-rows&~~~was_helpful=no)
 
